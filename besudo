@@ -1,0 +1,7 @@
+#!/bin/bash
+#Red'n'Black Tree corp. 2019 IZOBRETATEL777 (izobretatel777@mail.ru)
+if [[ $# -ge 1 ]]; then
+	pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY $@
+else
+	echo "besudo: error: bad number of arguments."
+fi
